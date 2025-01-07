@@ -1,0 +1,20 @@
+.color-1{
+    color: crimson;
+}
+.color-2{
+    /* color: #480082; */
+    color: #00ff00;
+}
+.color-3{
+    color: #ddd;
+}
+.color-4{
+    color: rgb(255 0, 255);
+}
+.color-5{
+    color: rgba(255, 0, 255, 0.3);
+}
+.border-1{
+    border: 2px solid red;
+    border-radius: 10px;
+}
