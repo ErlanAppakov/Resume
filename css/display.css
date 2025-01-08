@@ -1,3 +1,7 @@
+
+body {
+    background-color: #f4f4f9;
+}
 .inline li{
     display: inline;
 }
@@ -12,4 +16,81 @@
     width: 200px;
     margin: 40px auto;
     display: block;
+}
+/* Основной стиль */
+
+.wrapper {
+    /* width: 100%; */
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 12px;
+    }
+
+   .btn-submit {
+        font-size: 14px;
+    }
 }
